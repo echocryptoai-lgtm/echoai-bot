@@ -6,8 +6,8 @@ from aiogram.types import Message
 from aiogram.utils import executor
 from langdetect import detect
 
-API_TOKEN = 'os.getenv("API_KEY")'
-GROQ_API_KEY = 'os.getenv("GROQ_API_KEY")'
+API_TOKEN = os.getenv("API_TOKEN")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = 'mixtral-8x7b-32768'
 ADMIN_ID = 7977349936
 
